@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name ="author" content ="Pablo Fernando Urones Clavera" />
+    <meta name ="description" content ="Documento con el formulario sobre framework Bootstrap" />
+    <meta name ="keywords" content ="nombre, apellido, fecha, grado, información" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+
+    <title>Framework Bootstrap</title>
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />  
+</head>
+
+<body>
+    <header><h1>Framework Bootstrap - Formulario</h1></header>
+        <nav>
+            <ul>
+                <li><a href="index.html" accesskey="I" tabindex="0">Inicio</a></li>
+                <li><a href="origen.html" accesskey="O" tabindex="1">Origen</a></li>
+                <li><a href="historia.html" accesskey="H" tabindex="2">Historia</a></li>
+                <li><a href="caracteristicas.html" accesskey="C" tabindex="3">Características principales</a></li>
+                <li><a href="razones.html" accesskey="R" tabindex="4">Razones para usar Bootstrap</a></li>
+            </ul>
+        </nav>
+    <main>
+        <section>
+            <h2>Formulario</h2>
+            <form name="datos">
+                <p><label for="nombre"> Nombre:  </label> <input id="nombre" type="text" placeholder="Escriba nombre" required /> </p>
+                <p><label for="apellido"> Apellido:  </label> <input id="apellido" type="text" placeholder="Escriba su apellido" required /> </p>
+                <p><label for="email"> E-mail:  </label> <input id="email" type="email" placeholder="Escriba su email" required /> </p> 
+                <p><label for="fecha">Fecha de nacimiento: </label><input id="fecha" type="date" /></p>
+                <p><label for="rango">Grado de satisfacción </label><input id="rango" type="range" /></p>
+                <fieldset>
+                    <legend> ¿Estas interesado en tener más información?  </legend>
+                    <p><input id="masinfo" type=radio /> <label  for="masinfo">  Si, quiero más información </label></p>
+                    <p><input id="nomasinfo" type=radio  /><label  for="nomasinfo">De momento no quiero más información </label></p>
+                </fieldset>
+                <p><label for="texto"> Comentarios (opcionales):  </label> </p>
+                <textarea id="texto" name="comments" maxlength=1000 ></textarea>
+                
+                <p><input type="submit" value="Enviar"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <img src="multimedia/masinfo.png"  alt="Más información"  />
+        <a href="https://getbootstrap.com">Web de Bootstrap</a>
+        <a href="https://es.wikipedia.org/wiki/Bootstrap_(framework)">Wikipedia</a>
+    </footer>
+</body>
+</html>

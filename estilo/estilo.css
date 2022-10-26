@@ -1,0 +1,79 @@
+
+
+/* especificidad = 001 */
+body {
+    font: 400 1em Verdana, sans-serif;
+    line-height: 2em;
+    color: #000;
+    background-color: rgba(112, 110, 110, 0.8);
+}
+
+/* especificidad = 001 */
+header {
+    background-color: #c5bb2d;
+    font: 400 1.4em 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* especificidad = 001 */
+h2, h3, h4, h5 {
+    text-decoration: underline;
+    font: 400 1.3em 'Times New Roman', Times, serif;
+    background-color: #c5bb2d;
+}
+
+/* especificidad = 001 */
+nav {
+    font-size: 1.2em;
+}
+
+/* especificidad = 001 */
+ul {
+    border-width: 0.3em;
+    border-bottom-left-radius: 3.1em;
+    border-top-left-radius: 3.1em;
+}
+
+/* especificidad = 001 */
+footer {
+    background-color: #c5bb2d;
+}
+
+/* especificidad = 001 */
+img {
+    float: left;
+    max-width: 50%;
+}
+
+/* especificidad = 001 */
+table {
+    border: 0.2em solid black;
+    align-content: center;
+    max-width: 60%;
+}
+
+/* especificidad = 001 */
+td {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/* especificidad = 001 */
+tr {
+    text-align: center;
+}
+
+/* especificidad = 001 */
+th {
+    background-color: #c5bb2d;
+}
+
+/* especificidad = 001 */
+video {
+    height: auto;
+    max-width: 15em;
+}
+
+
+
